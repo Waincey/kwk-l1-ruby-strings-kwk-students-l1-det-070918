@@ -1,6 +1,6 @@
 # Code your prompts here!
 
-puts "What's your name?"
+puts "What's your guest name?"
 guest_name = gets.chomp.capitalize
 
 puts "What's the name of your party?"
@@ -17,6 +17,9 @@ host_name = gets.chomp.capitalize
 
 puts "Dear #{guest_name},
 
-You are cordinally invited to #{party_name} on #{date} at #{time}. See you there."
+You are cordinally invited to #{party_name} on #{date} at #{time}. See you there.
+
+Sincerely,
+#{host_name}."
 
 # Try starting out with puts'ing a string.
